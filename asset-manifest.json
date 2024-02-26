@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.c78d9967.css",
+    "main.js": "/Portfolio/static/js/main.29078461.js",
+    "static/js/787.128fc6e9.chunk.js": "/Portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/PixelArt.png": "/Portfolio/static/media/PixelArt.6aca2c2776305290367d.png",
+    "static/media/1-removebg.png": "/Portfolio/static/media/1-removebg.5ae50226093810e17a42.png",
+    "static/media/TrybeShop.png": "/Portfolio/static/media/TrybeShop.5d252a403128d9b80a1c.png",
+    "static/media/contact.png": "/Portfolio/static/media/contact.9220e91bcf91fe1ef11b.png",
+    "static/media/TrybeTunes.png": "/Portfolio/static/media/TrybeTunes.b59cda22340c28963d60.png",
+    "static/media/frontEnd.png": "/Portfolio/static/media/frontEnd.aed0122b8482a42baee8.png",
+    "static/media/CertificadoBack.png": "/Portfolio/static/media/CertificadoBack.ffc55edf654feca84d40.png",
+    "static/media/trybeWallet.png": "/Portfolio/static/media/trybeWallet.f2e77b577e5171767e78.png",
+    "static/media/CertificadoCienCia.png": "/Portfolio/static/media/CertificadoCienCia.60ced8d256040e9cfc1c.png",
+    "static/media/CertificadoFront.png": "/Portfolio/static/media/CertificadoFront.0bc4ff67c2b2498b670f.png",
+    "static/media/CertificadoFundamentos2.png": "/Portfolio/static/media/CertificadoFundamentos2.51c98428baa97c84d68e.png",
+    "static/media/background.jpg": "/Portfolio/static/media/background.d9aa602b04bdee8218e3.jpg",
+    "static/media/python-logo-only.png": "/Portfolio/static/media/python-logo-only.632369df831d16241b59.png",
+    "index.html": "/Portfolio/index.html",
+    "main.c78d9967.css.map": "/Portfolio/static/css/main.c78d9967.css.map",
+    "main.29078461.js.map": "/Portfolio/static/js/main.29078461.js.map",
+    "787.128fc6e9.chunk.js.map": "/Portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c78d9967.css",
+    "static/js/main.29078461.js"
+  ]
+}
