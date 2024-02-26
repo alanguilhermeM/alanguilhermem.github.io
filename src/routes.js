@@ -9,7 +9,7 @@ import Certificates from './components/Certificates';
 function AnimatedRoutes() {
   return (
     <AnimatePresence mode='wait'>
-      <Routes >
+      <Routes>
         <Route path="/" element={<About />} />
         <Route path="/tecnologies" element={<Tecnologies />} />
         <Route path="/certificates" element={<Certificates />} />
