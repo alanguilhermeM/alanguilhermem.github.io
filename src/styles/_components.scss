@@ -1,6 +1,6 @@
 .header {
   background-image: url('../images/background.jpg');
-  height: 60px;
+  height: 8vh;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -64,7 +64,7 @@ img {
 
 .contact-page {
   display: flex;
-  height: 800px;
+  height: 80vh;
   justify-content: center;
 
   background-image: url('../images/background.jpg');
@@ -94,8 +94,8 @@ img {
       section {
         display: flex;
         // position: relative;
-        height: 550px;
-        width: 1300px;
+        height: 55vh;
+        width: 70vw;
         border: 0px solid black;
         border-radius: 10px;
         box-shadow: 0 0 80px 2px #1d2137;
@@ -176,16 +176,18 @@ img {
 
       .contact-img {
         position: absolute;
-        right: 14.4%;
+        right: 14.8%;
         // bottom: 28.2%;
         // align-self: flex-end;
-        width: 600px;
-        height: 550px;
+        width: 35vw;
+        height: 55vh;
         border: 0px solid black;
         border-radius: 0 10px 10px 0;
       }
    }
 }
+
+
 
 .technologies-page {
   .tecnologies {
@@ -195,7 +197,7 @@ img {
     flex-direction: column;
     align-items: center;
     background-color: #FFFFFF;
-    height: 800px;
+    height: 85vh;
     padding-top: 70px;
     border-bottom: 1px solid rgb(210, 210, 210);
     box-shadow: 0 0 10px #676F9D;
@@ -203,16 +205,16 @@ img {
     .skill-card {
       display: flex;
       position: relative;
-      width: 700px;
+      width: 35vw;
       border-left: 3px solid #F9B17A;
       border-radius: 10px;
       box-shadow: 0 0 5px #2d3250;
       background-color: #2d3250; 
       flex-wrap: wrap;
       justify-content: space-evenly;
-      height: 300px;
-      padding: 5px;
-      margin: 5px;
+      height: 35vh;
+      padding: 10px;
+      margin: 15px;
       align-content: center;
     }
   
@@ -223,8 +225,8 @@ img {
 }
 
 .img {
-  width: 100px;
-  height: 100px;
+  width: 5vw;
+  height: 7vh;
   padding: 0 5px;
 }
 
@@ -265,14 +267,14 @@ h4 {
 
 .footer {
   display: flex;
-  height: 50px;
+  height: 5vh;
   background-color: black;
   align-items: center;
   justify-content: center;
 }
 
 .main {
-  height: 898px;
+  height: 95vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -284,7 +286,7 @@ h4 {
     top: 4%;
     align-items: center;
     justify-content: center;
-    height: 750px;
+    height: 75vh;
     width: 80%;
     flex-wrap: wrap;
 
@@ -317,3 +319,535 @@ h4 {
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .header {
+    h2 {
+      font-size: medium;
+    }
+    .nav_header {
+      width: 42%;
+
+      a {
+        font-size: initial;
+      }
+    }
+  }
+
+  .about {
+    main {
+      width: 60%;
+      font-size: x-small;
+
+      p {
+        font-weight: 400;
+        font-size: x-small;
+      }
+    }
+  }
+
+  .contact-page {
+    height: 65vh;
+
+    .form {
+      section {
+        width: 75vw;
+        height: 45vh;
+        
+        .contact {
+          font-size: medium;
+        }
+
+        .input {
+          width: 40%;
+          top: 15%;
+        }
+
+        .textArea {
+          width: 40%;
+          top: 15%;
+        }
+        
+        .btn {
+          left: 35%;
+          top: 15%;
+        }
+      }
+      
+      .contact-img {
+        height: 45vh;
+        right: 12.5%;
+      }
+    } 
+  }
+
+  .technologies-page {
+    .tecnologies {
+      flex-wrap: nowrap;
+      .skill-card {
+        width: 70vw;
+        height: 15vh;
+        // padding: 12px;
+
+        .skill-title {
+          font-size: 20px;
+          font-weight: 600;
+        }
+
+        .section {
+          top: 10%;
+
+          .img {
+            width: 5vw;
+            height: 5vh;
+            padding: 2px 25px;
+          }
+        }
+      }
+    }
+  }
+
+  .main {
+    .certificates {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 991px) {
+  .header {
+    h2 {
+      font-size: medium;
+    }
+    .nav_header {
+      width: 42%;
+
+      a {
+        font-size: initial;
+      }
+    }
+  }
+
+  .about {
+    main {
+      width: 60%;
+      font-size: x-small;
+
+      p {
+        font-weight: 400;
+        font-size: x-small;
+      }
+    }
+  }
+
+  .contact-page {
+    height: 65vh;
+
+    .form {
+      section {
+        width: 75vw;
+        height: 45vh;
+        
+        .contact {
+          font-size: medium;
+        }
+
+        .input {
+          width: 40%;
+          top: 15%;
+        }
+
+        .textArea {
+          width: 40%;
+          top: 15%;
+        }
+        
+        .btn {
+          left: 35%;
+          top: 15%;
+        }
+      }
+      
+      .contact-img {
+        height: 45vh;
+        right: 12.5%;
+      }
+    } 
+  }
+
+  .technologies-page {
+    .tecnologies {
+      flex-wrap: nowrap;
+      .skill-card {
+        width: 70vw;
+        height: 15vh;
+        // padding: 12px;
+
+        .skill-title {
+          font-size: 20px;
+          font-weight: 600;
+        }
+
+        .section {
+          top: 10%;
+
+          .img {
+            width: 5vw;
+            height: 5vh;
+            padding: 2px 25px;
+          }
+        }
+      }
+    }
+  }
+
+  .main {
+    .certificates {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header {
+    h2 {
+      font-size: x-small;
+    }
+
+    .nav_header {
+      width: 43%;
+
+      a {
+        font-size: x-small;
+      }
+      
+      a:hover {
+        font-size: 65%;
+        // border-bottom: 2px;
+      }
+    }
+  }
+
+  .about {
+    height: 30vh;
+    main {
+      width: 50%;
+      // height: 100%;
+      font-size: x-small;
+
+      p {
+        font-weight: 400;
+        font-size: x-small;
+      }
+    }
+
+    img {
+      height: 25vh;
+      width: 40vw;
+      margin-top: 5vh;
+    }
+  }
+
+  .contact-page {
+    height: 55vh;
+
+    .form {
+      section {
+        width: 90vw;
+        height: 45vh;
+        align-items: center;
+        .contact {
+          left: 0;
+          font-size: larger;
+        }
+
+        .input {
+          // align-items: center;
+          left: 0;
+          width: 80%;
+          top: 15%;
+        }
+
+        .textArea {
+          left: 0;
+          width: 80%;
+          top: 15%;
+        }
+        
+        .btn {
+          // right: 20%;
+          width: 15%;
+          left: 33.5%;
+          top: 15%;
+        }
+      }
+      
+      .contact-img {
+        height: 0vh;
+        width: 0vw;
+      }
+    } 
+  }
+
+  .technologies-page {
+    height: 110vh;
+
+    .tecnologies {
+      width: 100%;
+      height: 92%;
+      // height: 100%;
+      flex-wrap: nowrap;
+      .skill-card {
+        height: 20vh;
+        width: 85vw;
+        justify-content: center;
+
+        .section {
+          position: relative;
+          top: 15%;
+          width: 20%;
+          height: 50%;
+
+          .img {
+            width: 40%;
+            height: 40%;
+          }
+
+          h4 {
+            // justify-content: center;
+            // align-items: center;
+            font-size: small;
+            // width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    font-size: small;
+  }
+
+  .main {
+    align-items: baseline;
+    .certificates {
+      top: 11%;
+      width: 80%;
+      height: 50vh;
+      
+      .certificate {
+        width: 80%;
+        height: 18vh;
+        margin: 10px 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 599px) {
+  .header {
+    h2 {
+      font-size: x-small;
+    }
+
+    .nav_header {
+      width: 43%;
+
+      a {
+        font-size: x-small;
+      }
+      
+      a:hover {
+        font-size: 65%;
+        // border-bottom: 2px;
+      }
+    }
+  }
+
+  .about {
+    height: 30vh;
+    main {
+      width: 50%;
+      // height: 100%;
+      font-size: x-small;
+
+      p {
+        font-weight: 400;
+        font-size: x-small;
+      }
+    }
+
+    img {
+      height: 25vh;
+      width: 40vw;
+      margin-top: 5vh;
+    }
+  }
+
+  .contact-page {
+    height: 55vh;
+
+    .form {
+      section {
+        width: 90vw;
+        height: 45vh;
+        align-items: center;
+        .contact {
+          left: 0;
+          font-size: larger;
+        }
+
+        .input {
+          // align-items: center;
+          left: 0;
+          width: 80%;
+          top: 15%;
+        }
+
+        .textArea {
+          left: 0;
+          width: 80%;
+          top: 15%;
+        }
+        
+        .btn {
+          // right: 20%;
+          width: 15%;
+          left: 33.5%;
+          top: 15%;
+        }
+      }
+      
+      .contact-img {
+        height: 0vh;
+        width: 0vw;
+      }
+    } 
+  }
+
+  .technologies-page {
+    height: 110vh;
+
+    .tecnologies {
+      width: 100%;
+      height: 92%;
+      // height: 100%;
+      flex-wrap: nowrap;
+      .skill-card {
+        height: 20vh;
+        width: 85vw;
+        justify-content: center;
+
+        .section {
+          position: relative;
+          top: 15%;
+          width: 20%;
+          height: 50%;
+
+          .img {
+            width: 40%;
+            height: 40%;
+          }
+
+          h4 {
+            // justify-content: center;
+            // align-items: center;
+            font-size: small;
+            // width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    font-size: small;
+  }
+
+  .main {
+    align-items: baseline;
+    .certificates {
+      top: 11%;
+      width: 80%;
+      height: 50vh;
+      
+      .certificate {
+        width: 80%;
+        height: 18vh;
+        margin: 10px 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .header {
+    .nav_header {
+      width: 30%;
+    }
+  }
+
+  .about {
+    main {
+      h1 {
+        font-size: larger;
+      }
+
+      p {
+        font-size: large;
+      }
+    }
+  }
+
+  .technologies-page {
+    .tecnologies {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+
+      .skill-card {
+        width: 42vw;
+        height: 30vh;
+        padding: 15px 20px;
+
+        .section {
+          width: 80px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+  .header {
+    .nav_header {
+      width: 25%;
+    }
+  }
+
+  .about {
+    main {
+      h1 {
+        font-size: larger;
+      }
+
+      p {
+        font-size: large;
+      }
+    }
+  }
+}
+
+// @media screen and (min-width: 2045px) {
+//   .about {
+//     main {
+//       h1 {
+//         font-size: large;
+//       }
+
+//       p {
+//         font-size: larger;
+//       }
+//     }
+//   }
+// }

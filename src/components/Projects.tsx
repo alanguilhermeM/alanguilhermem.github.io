@@ -27,8 +27,8 @@ interface SwiperProps {
 
 const Projects: React.FC = () => {
     const swiperProps: SwiperProps = {
-        spaceBetween: 50,
-        slidesPerView: 3,
+        spaceBetween: 10,
+        slidesPerView: 2,
         navigation: true,
         pagination: { clickable: true },
         autoplay: { delay: 2000 },
@@ -38,27 +38,27 @@ const Projects: React.FC = () => {
     };
     return (
       <Swiper modules={[Navigation, Pagination, Autoplay, EffectCards]} {...swiperProps}>
-        <SwiperSlide>
+        <SwiperSlide style={{width: '500px'}}>
             <a href='https://github.com/alanguilhermeM/TrybeTunes'>
               <img src={ trybeTunes } alt='img' />
             </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide style={{width: '500px'}}>
             <a href='https://github.com/alanguilhermeM/TrybeWallet'>
               <img src={ trybeWallet } alt='img' />
             </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide style={{width: '500px'}}>
             <a href='https://github.com/alanguilhermeM/ShoppingCart'>
               <img src={ trybeShop } alt='img' />
             </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide style={{width: '500px'}}>
             <a href='https://github.com/alanguilhermeM/PixelArt'>
               <img src={ pixelArt } alt='img' />
             </a>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide style={{width: '500px'}}>
             <a href='https://github.com/alanguilhermeM/FrontEnd-online-store'>
               <img src={ frontEnd } alt='img' />
             </a>

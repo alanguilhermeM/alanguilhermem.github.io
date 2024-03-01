@@ -1,13 +1,13 @@
 .swiper {
   padding: 32px;
-  /* width: 96%; */
   background-image: url('../images/background.jpg');
 
 }
 
 .swiper-wrapper {
   height: 300px;
-  /* width: 9%; */
+  /* width: 1000%; */
+  /* width: 1000%; */
 }
 
 .swiper-wrapper:hover {
@@ -20,17 +20,22 @@
   border: 0px solid #2d3250;
   border-radius: 10px;
   box-shadow: 0 0 80px 22px #1d2137;
-  /* width: 10px; */
-  transition-property: height, box-shadow;
+  width: 500px;
+  /* height: 100px; */
+  transition-property: height, box-shadow, width;
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
 
 .swiper-slide:hover {
   height: 103%;
-  /* width: 103%; */
+  width: 29%;
   box-shadow: 0 0 100px 4px #000000;
 }
+
+/* .swiper-slide.slide1 {
+  width: 20px;
+} */
 
 .swiper-slide a img {
   width: 100%;
@@ -44,4 +49,46 @@
 
 .swiper-button-next, .swiper-button-prev {
   color: #F9B17A;
+}
+
+@media screen and (max-width: 360px) {
+  .swiper-wrapper {
+    height: 20vh;
+    /* width: 200px2; */
+  }
+
+  .swiper-wrapper:hover {
+    height: 160px;
+  }
+
+  .swiper-slide {
+    width: 10px;
+  }
+
+  .swiper-slide a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 599px) {
+  .swiper-wrapper {
+    height: 20vh;
+    /* width: 200px2; */
+  }
+
+  .swiper-wrapper:hover {
+    height: 160px;
+  }
+
+  .swiper-slide {
+    width: 10px;
+  }
+
+  .swiper-slide a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+  }
 }
